@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 90vw;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding: 1rem;
+    text-align: center;
+    color: #202020;
+}
+
+h2 {
+    padding: 1rem 0;
+    width: 100vw;
+    text-align: left;
+    color: #202020;
+}
+
+h3 {
+    margin-bottom: 1rem;
+
+}
+
+.explicacao p {
+    font-size: 1.6em;
+    padding: 0.5rem 0;
+    min-width: 540px;
+    max-width: 80vw;
+}
+
+.form {
+    display: flex;
+    padding: 2rem;
+    width: 540px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.inputIMC {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 500px;
+    margin-bottom: 1rem;
+    gap: 2rem;
+    font-size: 1.5rem;
+    color: #1c5c99;
+}
+
+input {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0.8rem 2rem;
+    border: 1px solid #1c5c99;
+    border-radius: 12px;
+    color: #1c5c99;
+    outline: none;
+    
+}
+
+button {
+    flex-direction: column;
+    padding: 1rem 3rem 1rem 1.6rem;
+    border: none;
+    border-radius: 100px;
+    background-color: #1c5c99;
+    font-size: 1rem;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #0b355c;
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: inset 2px 2px 10px #202020;
+    background-color: #0b355c;
+    cursor: pointer;
+}
+
+.arrowRight {
+    position: relative;
+    left: 30px;
+    bottom: 2px;
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+table {
+    display: table;
+    width: 90vw;
+    min-width: fit-content;
+    max-width: 540px;
+    border-collapse: collapse;
+}
+
+.tituloTabela {
+    padding: 1rem;
+    max-width: 540px;
+    border-radius: 10px;
+    background-color: #1c5c99;
+    color: #fff;
+}
+
+table thead {
+    color: #1c5c99;
+    font-weight: bolder;
+}
+
+table tbody {
+    font-weight: bold;
+}
+
+table tr {
+    text-transform: uppercase;
+    border-bottom: 1px solid #a1a1a1;
+}
+
+table td {
+    color: #707070;
+    padding: 0.6rem;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.grau {
+    text-align: center;
+}
+
+.calc-result {
+    margin: 0.8rem 0;
+    padding: 1rem 3rem 1rem 1.6rem;
+    width: max-content;
+    position: relative;
+    border-radius: 100px;
+    background-color: #dd6719;
+    font-size: 1.2rem;
+    color: #fff;
+}
